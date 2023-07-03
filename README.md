@@ -1,6 +1,51 @@
 # SwiftUI-ImagePicker
 An implementation of SwiftUI ImagePicker to support iOS Camera and Photo Gallery
 
+Usage:
+
+```swift
+
+    // variables
+
+    @StateObject var imagePickerObs = TP1AppImagePickerViewController()
+    @State var profileUIImageInput: UIImage? = nil
+
+```
+
+
+```swift
+
+    var body: some View {
+
+      ...
+
+      Image(uiImage: profileUIImageInput)
+
+      Button {
+          imagePickerObs.show()
+      } label: {
+          Text("Edit image")
+      }
+      
+      ...
+      
+      
+      TP1AppImagePickerView(
+          selectedImage: $profileUIImageInput,
+          obs: imagePickerObs)
+      .onChange(of: profileUIImageInput) { newValue in
+          if newValue != nil
+          {
+              uploadImage()
+          }
+      }
+
+      ...
+
+  }
+
+```
+
 
 1. Permission acceptance case
 
