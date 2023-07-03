@@ -36,7 +36,7 @@ Usage:
       .onChange(of: profileUIImageInput) { newValue in
           if newValue != nil
           {
-              uploadImage()
+              // do anything here e.g. upload image here
           }
       }
 
