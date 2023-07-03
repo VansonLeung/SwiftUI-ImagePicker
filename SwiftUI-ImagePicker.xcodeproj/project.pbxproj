@@ -11,6 +11,20 @@
 		21699C8C2A52D42B001C3593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699C8B2A52D42B001C3593 /* ContentView.swift */; };
 		21699C8E2A52D42D001C3593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21699C8D2A52D42D001C3593 /* Assets.xcassets */; };
 		21699C912A52D42D001C3593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21699C902A52D42D001C3593 /* Preview Assets.xcassets */; };
+		21699CA82A52E6C3001C3593 /* TP1PageDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CA72A52E6C3001C3593 /* TP1PageDividerView.swift */; };
+		21699CAA2A52E6E4001C3593 /* TP1AppLayoutModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CA92A52E6E4001C3593 /* TP1AppLayoutModifier.swift */; };
+		21699CAC2A52E6FE001C3593 /* TP1ViewElementStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CAB2A52E6FE001C3593 /* TP1ViewElementStyles.swift */; };
+		21699CAE2A52E71D001C3593 /* ColorThemeResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CAD2A52E71D001C3593 /* ColorThemeResources.swift */; };
+		21699CB02A52E790001C3593 /* TP1CompositeInputFormImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CAF2A52E790001C3593 /* TP1CompositeInputFormImagePicker.swift */; };
+		21699CB32A52E84C001C3593 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 21699CB22A52E84C001C3593 /* SDWebImageSwiftUI */; };
+		21699CB52A52E8A3001C3593 /* TP1AppImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CB42A52E8A3001C3593 /* TP1AppImagePickerViewController.swift */; };
+		21699CBB2A52E98E001C3593 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CBA2A52E98E001C3593 /* Color.swift */; };
+		21699CBD2A52E9DB001C3593 /* View+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CBC2A52E9DA001C3593 /* View+Any.swift */; };
+		21699CBF2A52EA70001C3593 /* View+onLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CBE2A52EA70001C3593 /* View+onLoad.swift */; };
+		21699CC22A52ED56001C3593 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CC12A52ED56001C3593 /* ImagePickerController.swift */; };
+		21699CC42A52EFD4001C3593 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CC32A52EFD4001C3593 /* Icon.swift */; };
+		21699CC62A52F00F001C3593 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CC52A52F00F001C3593 /* ButtonStyles.swift */; };
+		21699CC82A52F03E001C3593 /* String+i18n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21699CC72A52F03E001C3593 /* String+i18n.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,19 @@
 		21699C8B2A52D42B001C3593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21699C8D2A52D42D001C3593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21699C902A52D42D001C3593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21699CA72A52E6C3001C3593 /* TP1PageDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1PageDividerView.swift; sourceTree = "<group>"; };
+		21699CA92A52E6E4001C3593 /* TP1AppLayoutModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1AppLayoutModifier.swift; sourceTree = "<group>"; };
+		21699CAB2A52E6FE001C3593 /* TP1ViewElementStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1ViewElementStyles.swift; sourceTree = "<group>"; };
+		21699CAD2A52E71D001C3593 /* ColorThemeResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeResources.swift; sourceTree = "<group>"; };
+		21699CAF2A52E790001C3593 /* TP1CompositeInputFormImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1CompositeInputFormImagePicker.swift; sourceTree = "<group>"; };
+		21699CB42A52E8A3001C3593 /* TP1AppImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP1AppImagePickerViewController.swift; sourceTree = "<group>"; };
+		21699CBA2A52E98E001C3593 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		21699CBC2A52E9DA001C3593 /* View+Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Any.swift"; sourceTree = "<group>"; };
+		21699CBE2A52EA70001C3593 /* View+onLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+onLoad.swift"; sourceTree = "<group>"; };
+		21699CC12A52ED56001C3593 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		21699CC32A52EFD4001C3593 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		21699CC52A52F00F001C3593 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		21699CC72A52F03E001C3593 /* String+i18n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+i18n.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21699CB32A52E84C001C3593 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +79,8 @@
 		21699C882A52D42B001C3593 /* SwiftUI-ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				21699CC02A52ED49001C3593 /* customViewControllers */,
+				21699CA62A52E6B3001C3593 /* TP */,
 				21699C892A52D42B001C3593 /* SwiftUI_ImagePickerApp.swift */,
 				21699C8B2A52D42B001C3593 /* ContentView.swift */,
 				21699C8D2A52D42D001C3593 /* Assets.xcassets */,
@@ -65,6 +95,33 @@
 				21699C902A52D42D001C3593 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21699CA62A52E6B3001C3593 /* TP */ = {
+			isa = PBXGroup;
+			children = (
+				21699CA72A52E6C3001C3593 /* TP1PageDividerView.swift */,
+				21699CA92A52E6E4001C3593 /* TP1AppLayoutModifier.swift */,
+				21699CAB2A52E6FE001C3593 /* TP1ViewElementStyles.swift */,
+				21699CAD2A52E71D001C3593 /* ColorThemeResources.swift */,
+				21699CBA2A52E98E001C3593 /* Color.swift */,
+				21699CC52A52F00F001C3593 /* ButtonStyles.swift */,
+				21699CAF2A52E790001C3593 /* TP1CompositeInputFormImagePicker.swift */,
+				21699CB42A52E8A3001C3593 /* TP1AppImagePickerViewController.swift */,
+				21699CBC2A52E9DA001C3593 /* View+Any.swift */,
+				21699CBE2A52EA70001C3593 /* View+onLoad.swift */,
+				21699CC32A52EFD4001C3593 /* Icon.swift */,
+				21699CC72A52F03E001C3593 /* String+i18n.swift */,
+			);
+			path = TP;
+			sourceTree = "<group>";
+		};
+		21699CC02A52ED49001C3593 /* customViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21699CC12A52ED56001C3593 /* ImagePickerController.swift */,
+			);
+			path = customViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-ImagePicker";
+			packageProductDependencies = (
+				21699CB22A52E84C001C3593 /* SDWebImageSwiftUI */,
+			);
 			productName = "SwiftUI-ImagePicker";
 			productReference = 21699C862A52D42B001C3593 /* SwiftUI-ImagePicker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = 21699C7D2A52D42B001C3593;
+			packageReferences = (
+				21699CB12A52E84C001C3593 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 21699C872A52D42B001C3593 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21699CAA2A52E6E4001C3593 /* TP1AppLayoutModifier.swift in Sources */,
+				21699CBB2A52E98E001C3593 /* Color.swift in Sources */,
 				21699C8C2A52D42B001C3593 /* ContentView.swift in Sources */,
+				21699CC22A52ED56001C3593 /* ImagePickerController.swift in Sources */,
+				21699CB02A52E790001C3593 /* TP1CompositeInputFormImagePicker.swift in Sources */,
+				21699CA82A52E6C3001C3593 /* TP1PageDividerView.swift in Sources */,
+				21699CAE2A52E71D001C3593 /* ColorThemeResources.swift in Sources */,
+				21699CB52A52E8A3001C3593 /* TP1AppImagePickerViewController.swift in Sources */,
 				21699C8A2A52D42B001C3593 /* SwiftUI_ImagePickerApp.swift in Sources */,
+				21699CC42A52EFD4001C3593 /* Icon.swift in Sources */,
+				21699CAC2A52E6FE001C3593 /* TP1ViewElementStyles.swift in Sources */,
+				21699CBF2A52EA70001C3593 /* View+onLoad.swift in Sources */,
+				21699CBD2A52E9DB001C3593 /* View+Any.swift in Sources */,
+				21699CC62A52F00F001C3593 /* ButtonStyles.swift in Sources */,
+				21699CC82A52F03E001C3593 /* String+i18n.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +346,8 @@
 				DEVELOPMENT_TEAM = LWDY88PP84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs camera usage permission";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App needs Photo Library access permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +377,8 @@
 				DEVELOPMENT_TEAM = LWDY88PP84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs camera usage permission";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App needs Photo Library access permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21699CB12A52E84C001C3593 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21699CB22A52E84C001C3593 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21699CB12A52E84C001C3593 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21699C7E2A52D42B001C3593 /* Project object */;
 }
