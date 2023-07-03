@@ -1,5 +1,5 @@
 # SwiftUI-ImagePicker
-An installation of SwiftUI ImagePicker to support iOS Camera and Photo Gallery
+An implementation of SwiftUI ImagePicker to support iOS Camera and Photo Gallery
 
 
 1. Permission acceptance case
